@@ -18875,6 +18875,10 @@ body main .step-3 label span {
   place-items: center;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .border-none {
   border: none;
 }
