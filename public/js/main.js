@@ -326,3 +326,9 @@ document.querySelector('.confirm').addEventListener('click', () => {
     document.querySelector('.step-4').classList.remove('active')
     document.querySelector('.step-4').nextElementSibling.classList.add('active')
 })
+
+document.getElementById('change-plan').addEventListener('click', (e) => {
+    e.preventDefault()
+    document.querySelector('.step-4').classList.remove('active')
+    document.querySelector('.step-2').classList.add('active')
+})
